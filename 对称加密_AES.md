@@ -118,3 +118,5 @@ func decryptAESCFB(key []byte, ciphertext string) (string, error) {
 - **使用场景**：适合高性能需求的场景，如硬盘加密、网络数据加密。
 
 
+#### 具体代码
+https://github.com/SUMOMO1999/LearnEncrypt_Sumomo/blob/main/src/AES.go
