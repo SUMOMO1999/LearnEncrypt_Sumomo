@@ -11,7 +11,6 @@ import (
 )
 
 // CFB模式加密
-
 // stream.XORKeyStream(ciphertext[aes.BlockSize:], plaintext)：使用加密流对明文进行加密。
 // CFB模式使用IV，使加密更安全，即使相同的明文每次加密产生不同的密文。
 
